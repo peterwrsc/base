@@ -1,0 +1,32 @@
+{
+    "name": "base-setup",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node",
+    "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": { "configureZshAsDefaultShell": true },
+    "ghcr.io/devcontainers/features/copilot-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.insertSpaces": true,
+                "editor.tabSize": 2,
+                "js/ts.preferences.quoteStyle": "single",
+                "js/ts.format.semicolons": "remove",
+                 "files.associations": {
+                    "*.css": "tailwindcss"
+                },
+                "editor.codeActionsOnSave": {
+                "source.fixAll": "never",
+                "source.fixAll.eslint": "explicit",
+                "source.organizeImports": "never"
+                }
+            },
+            "extensions": [
+                "Vue.volar",
+                "bradlc.vscode-tailwindcss",
+                "dbaeumer.vscode-eslint",
+                "ms-playwright.playwright"
+            ]
+        }
+    }
+}
