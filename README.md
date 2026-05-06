@@ -1,16 +1,16 @@
-# Reusable Dev Container Base
+# Reusable dev container - base
 
 This repo provides a reusable `.devcontainer` setup that can be copied into other repositories.
 
 It is intended as a stable base for Node/TypeScript projects, with support for the GitHub Copilot CLI.
 
-## How To Reuse
+## How to reuse
 
 1. Copy the `.devcontainer` folder into another project repository.
 2. Open that repository in your editor.
 3. Reopen the workspace in the container.
 
-## What This Base Includes
+## What this base includes
 
 - Node.js and npm tooling
 - TypeScript compiler support
