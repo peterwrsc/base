@@ -17,6 +17,12 @@ It is intended as a stable base for Node/TypeScript projects, with support for t
 - Common CLI tools for development workflows
 - GitHub Copilot CLI available in the container
 
+## AI skills
+
+This base setup also includes a collection of reusable AI workflow skills.
+
+See the dedicated skills documentation here: [Skills README](.github/skills/README.md).
+
 ## Scope
 
 Project-specific dependencies and customisations should stay in each target repository.
